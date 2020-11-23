@@ -2,19 +2,30 @@ body {
   font-family: serif;
 }
 
-nav img {
+.logo img {
   width: 5vw;
 }
 
+.tagline p {
+  font-size: 3em;
+}
 nav a {
-  color: black;
+  color: white;
 }
 
 section img {
   max-width: 30vw;
 }
 
-#1 {
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+section {
   width: 100vw;
-  background-color: grey;
+  margin-top: 2vh;
+  border-top: solid 1px;
+  text-align: center;
 }
